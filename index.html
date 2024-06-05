@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Home Page</title>
+</head>
+
+<body id="webiste-body">
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid" style="background-color: black;">
+            <a class="navbar-brand me-auto" href="index.html">
+                <img src="Images/Logo2.png" alt="Logo" width="150" height="150">
+            </a>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" style="font-weight: bolder;" id="offcanvasNavbarLabel">DoBu Martial Arts
+                        Gym</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="menu-bar">
+                    <ul class="navbar-nav justify-content-evenly flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="aboutUs.html">AboutUs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="programs.html">Programs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="instructors.html">Instructors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="memberships.html">Memberships</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="gallery.html">Gallery</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a href="contact.html" class="contact-btn" aria-current="page">Contact</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Hero Section Start -->
+    <div class="container-fluid">
+        <div class="row justify-content-evenly mt-5 mb-5">
+            <div class="col-md-5 text-start">
+                <h1 id="hero">DOBU MARTIAL ARTS GYM</h1>
+                <h2 id="sub-hero">STRENGTH | SKILL | SPIRIT</h2>
+                <div class="typing-container">
+                    <p id="typing-text"></p><span class="cursor">&nbsp;</span><br>
+                </div>
+                <br>
+                <a href="contact.html" class="btn btn-outline-warning btn-lg btn-home">Contact Now</a><br>
+                <br>
+                <a href="programs.html" class="btn btn-outline-danger btn-lg mb-5 btn-home">Explore Our Programs</a>
+                <br class="h-100">
+            </div>
+            <div class="col-md-5">
+                <img src="Images/hero.jpg" alt="Martiat Arts" class="img-fluid rounded w-100 h-100">
+            </div>
+        </div>
+    </div>
+    <!-- Hero Section End -->
+    <!-- Course Overview Start -->
+    <div class="container-fluid" id="course-overview-section">
+        <div class="row justify-content-center mx-5">
+            <h2 class="text-center text-white mt-5 mb-5">"Available Courses From Our Gym"</h2>
+            <div class="col-md-3 mb-3">
+                <a href="programs.html#jiu-jitsu-adult" class="btn btn-outline-warning btn-lg w-100 btn-home">Jiu-Jitsu
+                    (Adult)</a>
+            </div>
+            <div class="col-md-3 mb-3">
+                <a href="programs.html#karate-adult" class="btn btn-outline-warning btn-lg w-100 btn-home">Karate (Adult)</a>
+            </div>
+            <div class="col-md-3 mb-3">
+                <a href="programs.html#judo-adult" class="btn btn-outline-warning btn-lg w-100 btn-home">Judo
+                    (Adult)</a>
+            </div>
+            <div class="col-md-3 mb-3">
+                <a href="programs.html#muay-thai-adult" class="btn btn-outline-warning btn-lg w-100 btn-home">Muay Thai
+                    (Adult)</a>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-3 mx-5">
+            <div class="col-md-3 mb-3">
+                <a href="programs.html#jiu-jitsu-kid" class="btn btn-outline-warning btn-lg w-100 btn-home">Jiu-Jitsu (Kids)</a>
+            </div>
+            <div class="col-md-3 mb-3">
+                <a href="programs.html#judo-kid" class="btn btn-outline-warning btn-lg w-100 btn-home">Judo
+                    (Kids)</a>
+            </div>
+            <div class="col-md-3 mb-3">
+                <a href="programs.html#fitness-training" class="btn btn-outline-warning btn-lg w-100 btn-home">Fitness
+                    Training</a>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-3 mb-3 mx-5">
+            <div class="col-md-3 mb-3">
+                <a href="programs.html#self-defense" class="btn btn-outline-warning btn-lg w-100 btn-home">Self-Defense</a>
+            </div>
+        </div>
+    </div>
+    <!-- Course Overview End -->
+
+    <!-- Instructor Overview Start -->
+
+    <!-- Carousel wrapper -->
+    <div class="container">
+        <h1 class="text-center text-white mt-5">/ Meet Our Instructors /</h1>
+        <div id="carouselMultiItemExample" data-mdb-carousel-init class="carousel slide text-center"
+            data-mdb-ride="carousel">
+            <!-- Controls -->
+            <div class="d-flex justify-content-center mb-4 position-relative">
+                <!-- Previous button -->
+                <button data-mdb-button-init class="carousel-control-prev position-relative" type="button"
+                    data-mdb-target="#carouselMultiItemExample" data-mdb-slide="prev">
+                    <img src="Images/back.png" alt="back arrow" class="custom-arrow">
+                </button>
+                <button data-mdb-button-init class="carousel-control-next position-relative" type="button"
+                    data-mdb-target="#carouselMultiItemExample" data-mdb-slide="next">
+                    <img src="Images/next.png" alt="next arrow" class="custom-arrow">
+                </button>
+            </div>
+            <!-- Inner -->
+            <div class="carousel-inner py-4">
+                <!-- Single item -->
+                <div class="carousel-item active">
+                    <div class="row justify-content-center mx-5">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <img src="Images/Mauricio Gomez-owner-1.jpg" class="card-img-top ins-img"
+                                    alt="Instructor-1">
+                                <div class="card-body">
+                                    <h4 class="card-title sub-hero">Mauricio Gomez</h4>
+                                    <h6 class="status">Gym Owner | Head Coach</h6>
+                                    <p class="card-text text-start text-black">
+                                        Multiple black belts in Judo, Jiu-Jitsu, and Karate. Over 20 years of
+                                        experience.
+                                    </p>
+                                    <br>
+                                    <br>
+                                    <a href="instructors.html" class="btn btn-primary w-100 btn-ins">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 d-none d-md-block">
+                            <div class="card">
+                                <img src="Images/Sarah Nova-Karate.webp" class="card-img-top ins-img"
+                                    alt="Instructor-2">
+                                <div class="card-body">
+                                    <h4 class="card-title sub-hero">Sarah Nova</h4>
+                                    <h6 class="status">Assistant Coach</h6>
+                                    <p class="card-text text-start text-black">
+                                        5th Dan Karate. Specializes in self-defense techniques and women's
+                                        empowerment.
+                                    </p>
+                                    <br>
+                                    <br>
+                                    <a href="instructors.html" class="btn btn-primary w-100 btn-ins">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 d-none d-md-block">
+                            <div class="card">
+                                <img src="Images/Guy Victory-BJJ.jpg" class="card-img-top ins-img" alt="Instructor-3">
+                                <div class="card-body">
+                                    <h4 class="card-title sub-hero">Guy Victory</h4>
+                                    <h6 class="status">Assistant Coach</h6>
+                                    <p class="card-text text-start text-black">
+                                        2nd Dan Blackbelt Jiu-Jitsu. Passionate about teaching discipline and
+                                        respect.
+                                    </p>
+                                    <br>
+                                    <br>
+                                    <a href="instructors.html" class="btn btn-primary w-100 btn-ins">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single item -->
+                <div class="carousel-item">
+                    <div class="row justify-content-center mx-5">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="card">
+                                <img src="Images/Morris Davis-MuayThai.jpg" class="card-img-top ins-img"
+                                    alt="Instructor-4">
+                                <div class="card-body">
+                                    <h4 class="card-title sub-hero">Morris Davis</h4>
+                                    <h6 class="status">Assistant Coach</h6>
+                                    <p class="card-text text-start text-black">
+                                        Accredited Muay Thai coach. Inspires students with his dedication and
+                                        perseverance.
+                                    </p>
+                                    <br>
+                                    <br>
+                                    <a href="instructors.html" class="btn btn-primary w-100 btn-ins">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 d-none d-md-block">
+                            <div class="card">
+                                <img src="Images/Traci Santiago-fitness1.jpg" class="card-img-top ins-img"
+                                    alt="Instructor-5">
+                                <div class="card-body">
+                                    <h4 class="card-title sub-hero">Traci Santiago</h4>
+                                    <h6 class="status">Fitness Coach</h6>
+                                    <p class="card-text text-start text-black">
+                                        BSc in Sports Science. Expert in designing strength and conditioning
+                                        programs.
+                                    </p>
+                                    <br>
+                                    <br>
+                                    <a href="instructors.html" class="btn btn-primary w-100 btn-ins">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 d-none d-md-block">
+                            <div class="card">
+                                <img src="Images/Harpreet Kaur-fitness2.jpg" class="card-img-top ins-img"
+                                    alt="Instructor-6">
+                                <div class="card-body">
+                                    <h4 class="card-title sub-hero">Harpreet Kaur</h4>
+                                    <h6 class="status">Fitness Coach</h6>
+                                    <p class="card-text text-black text-start">
+                                        BSc in Physiotherapy. MSc in Sports Science. Specializes in injury
+                                        prevention and rehabilitation.
+                                    </p>
+                                    <br>
+                                    <a href="instructors.html" class="btn btn-primary w-100 btn-ins">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Inner -->
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- Carousel wrapper -->
+    <!-- Instructor Overview End -->
+
+    <!-- Testimonials Start -->
+    <section class="home-testimonial">
+        <div class="container">
+            <div class="row d-flex justify-content-center testimonial-pos">
+                <div class="col-sm-12 d-flex justify-content-center">
+                    <h2 class="sub-hero">Testimonials</h2>
+                </div>
+                <div class="col-sm-12 d-flex justify-content-center">
+                    <h3 class="text-white">Explore our members' experience</h3>
+                </div>
+            </div>
+            <section class="home-testimonial-bottom">
+                <div class="container-fluid testimonial-inner">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-sm-4 style-3">
+                            <div class="tour-item">
+                                <div class="tour-desc bg-white">
+                                    <div class="tour-text color-grey-3 text-center">&ldquo;Joining DoBu Martial Arts Gym
+                                        was the best decision I've made for my fitness and mental well-being.
+                                        Mauricio and his team of instructors are incredibly knowledgeable and
+                                        supportive.&rdquo;</div>
+                                    <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people"
+                                            src="Images/man.png" alt="Man"></div>
+                                    <div class="link-name d-flex justify-content-center">John Doe</div>
+                                    <div class="link-position d-flex justify-content-center">From Adult Class</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 style-3">
+                            <div class="tour-item">
+                                <div class="tour-desc bg-white">
+                                    <div class="tour-text color-grey-3 text-center ps-1">&ldquo;Training at DoBu Martial
+                                        Arts
+                                        Gym has been empowering!
+                                        I never thought I could learn martial arts, but with the guidance of Sarah and
+                                        the other instructors,
+                                        I've exceeded my own expectations.&rdquo;</div>
+                                    <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people"
+                                            src="Images/woman.png" alt="Woman"></div>
+                                    <div class="link-name d-flex justify-content-center">Tracy Ken</div>
+                                    <div class="link-position d-flex justify-content-center">From Adult Class</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 style-3">
+                            <div class="tour-item">
+                                <div class="tour-desc bg-white">
+                                    <div class="tour-text color-grey-3 text-center ps-1">&ldquo;I love coming to DoBu
+                                        Martial
+                                        Arts Gym! The classes are so much fun, and I'm learning new things every day.
+                                        Morris is my favorite instructor because he always makes the lessons
+                                        exciting.&rdquo;</div>
+                                    <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people"
+                                            src="Images/kid.png" alt="Kid"></div>
+                                    <div class="link-name d-flex justify-content-center">William Stem</div>
+                                    <div class="link-position d-flex justify-content-center">From Junior Class</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <!-- Testimonials End -->
+
+    <!-- Short Content -->
+    <div class="container">
+        <div class="row mt-5 mb-5">
+            <div class="col-md-8 text-end">
+                <h1>Explore Our Memberhips!</h1>
+                <p>Unlock your potential with DoBu Martial Arts Gym.
+                    Our memberships cater to all skill levels and ages.
+                    Join us today and find the perfect fit for your martial arts journey.
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <a href="memberships.html" class="btn btn-outline-warning btn-lg program-btn btn-home">Explore</a>
+            </div>
+        </div>
+    </div>
+    <!-- Short Content end -->
+
+    <!-- Start Footer -->
+    <div class="container-fluid footer mt-5">
+        <div class="row justify-content-evenly text-center text-sm-start mx-auto mt-5">
+            <div class="col-sm-4 mt-5">
+                <a class="navbar-brand me-auto" href="index.html">
+                    <img src="Images/Logo2.png" alt="Logo" width="150" height="150">
+                </a>
+            </div>
+            
+            <div class="col-sm-4 mt-5 footer-col">
+                <h4>Quick Links</h4>
+                <ul class="list-unstyled">
+                    <li><a href="index.html" class="text-decoration-none text-white">Home</a></li>
+                    <li><a href="aboutUs.html" class="text-decoration-none text-white">About Us</a></li>
+                    <li><a href="programs.html" class="text-decoration-none text-white">Programs</a></li>
+                    <li><a href="instructors.html" class="text-decoration-none text-white">Instructors</a></li>
+                    <li><a href="memberships.html" class="text-decoration-none text-white">Memberships</a></li>
+                    <li><a href="gallery.html" class="text-decoration-none text-white">Gallery</a></li>
+                    <li><a href="contact.html" class="text-decoration-none text-white">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="col-sm-4 mt-5 footer-col text-white">
+                <h4>Engage with us: </h4>
+                <p>
+                    <img src="Images/location.png" alt="address-icon" class="bullet-icon"> Address: 123 Zen Way, Lotus
+                    Park, Tranquil Town,
+                    Zenith Province, ZN1234<br>
+                    <img src="Images/phone.png" alt="phone-icon" class="bullet-icon"> Phone: +1 (555) 123-4567<br>
+                    <img src="Images/circle.png" alt="email-icon" class="bullet-icon"> Email:
+                    info@dohumartialarts.com<br>
+                </p>
+            </div>
+        </div>
+        <hr class="text-white">
+
+        <div class="row">
+            <div class="col-md-12 text-center pt-1 text-white">
+                <p>&copy; 2023 Copyright <a href="#" class="text-white">DoBu Martial Arts Gym</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer -->
+    <script src="script.js"></script>
+    <!-- MDB JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"></script>
+</body>
+
+</html>

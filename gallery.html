@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <title>Contact Us Page</title>
+    </head>
+    <body id="webiste-body">
+        <!-- Start Navbar -->
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <div class="container-fluid" style="background-color: black;">
+                <a class="navbar-brand me-auto" href="index.html">
+                    <img src="Images/Logo2.png" alt="Logo" width="150" height="150">
+                </a>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" style="font-weight: bolder;" id="offcanvasNavbarLabel">DoBu Martial Arts Gym</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="menu-bar">
+                        <ul class="navbar-nav justify-content-evenly flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link mx-2"  href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" href="aboutUs.html">AboutUs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" href="programs.html">Programs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" href="instructors.html">Instructors</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" href="memberships.html">Memberships</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2 active" aria-current="page" href="gallery.html">Gallery</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="contact.html" class="contact-btn">Contact</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+        <!-- End Navbar -->
+
+        <!-- Gallery Start -->
+        <div class="container">
+            <div class="row justify-content-center">
+                <h2 id="gallery-header">DoBu Martial Arts Gym's Gallery Showcase</h2>
+                <p class="text-center mt-4">Our programs, from Brazilian Jiu-Jitsu to Taekwondo, empower individuals of all ages,<br>
+                enhancing physical strength, flexibility, confidence, and self-discipline."</p>
+                <div class="col-md-12 d-flex justify-content-center align-items-center">
+                    <div class="btn-group mt-5 mb-5" role="group" aria-label="Basic button group">
+                        <div class="btn btn-lg btn-outline-danger fw-bold text-white filter-button active" data-filter="all">All</div>
+                        <div class="btn btn-lg btn-outline-danger fw-bold text-white filter-button" data-filter="kids">Kids</div>
+                        <div class="btn btn-lg btn-outline-danger fw-bold text-white filter-button" data-filter="adults">Adults</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <div class="img-container">
+                        <img src="Images/kid1.jpg" class="w-100 shadow-1-strong rounded mb-4 filter kids img-zoom" alt="Kids Image 1">
+                    </div>
+                    <div class="img-container">
+                        <img src="Images/adult1.jpg" class="w-100 shadow-1-strong rounded mb-4 filter adults img-zoom" alt="Adults Image 1">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <div class="img-container">
+                        <img src="Images/kid2.jpg" class="w-100 shadow-1-strong rounded mb-4 filter kids img-zoom" alt="Kids Image 2">
+                    </div>
+                    <div class="img-container">
+                        <img src="Images/adult2.jpg" class="w-100 shadow-1-strong rounded mb-4 filter adults img-zoom" alt="Adults Image 2">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <div class="img-container">
+                        <img src="Images/kid3.jpg" class="w-100 shadow-1-strong rounded mb-4 filter kids img-zoom" alt="Kids Image 3">
+                    </div>
+                    <div class="img-container">
+                        <img src="Images/adult3.jpg" class="w-100 shadow-1-strong rounded mb-4 filter adults img-zoom" alt="Adults Image 3">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <div class="img-container">
+                        <img src="Images/kid4.jpg" class="w-100 shadow-1-strong rounded mb-4 filter kids img-zoom" alt="Kids Image 4">
+                    </div>
+                    <div class="img-container">
+                        <img src="Images/adult4.jpg" class="w-100 shadow-1-strong rounded mb-4 filter adults img-zoom" alt="Adults Image 4">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <div class="img-container">
+                        <img src="Images/kid5.jpg" class="w-100 shadow-1-strong rounded mb-4 filter kids img-zoom" alt="Kids Image 5">
+                    </div>
+                    <div class="img-container">
+                        <img src="Images/adult5.jpg" class="w-100 shadow-1-strong rounded mb-4 filter adults img-zoom" alt="Adults Image 5">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <div class="img-container">
+                        <img src="Images/kid6.jpg" class="w-100 shadow-1-strong rounded mb-4 filter kids img-zoom" alt="Kids Image 6">
+                    </div>
+                    <div class="img-container">
+                        <img src="Images/adult6.jpg" class="w-100 shadow-1-strong rounded mb-4 filter adults img-zoom" alt="Adults Image 6">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <div class="img-container">
+                        <img src="Images/kid7.jpg" class="w-100 shadow-1-strong rounded mb-4 filter kids img-zoom" alt="Kids Image 7">
+                    </div>
+                    <div class="img-container">
+                        <img src="Images/adult7.jpg" class="w-100 shadow-1-strong rounded mb-4 filter adults img-zoom" alt="Adults Image 7">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <div class="img-container">
+                        <img src="Images/kid8.jpg" class="w-100 shadow-1-strong rounded mb-4 filter kids img-zoom" alt="Kids Image 8">
+                    </div>
+                    <div class="img-container">
+                        <img src="Images/adult8.jpg" class="w-100 shadow-1-strong rounded mb-4 filter adults img-zoom" alt="Adults Image 8">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <div class="img-container">
+                        <img src="Images/kid9.jpg" class="w-100 shadow-1-strong rounded mb-4 filter kids img-zoom" alt="Kids Image 9">
+                    </div>
+                    <div class="img-container">
+                        <img src="Images/adult9.jpg" class="w-100 shadow-1-strong rounded mb-4 filter adults img-zoom" alt="Adults Image 9">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <div class="img-container">
+                        <img src="Images/kid10.jpg" class="w-100 shadow-1-strong rounded mb-4 filter kids img-zoom" alt="Kids Image 10">
+                    </div>
+                    <div class="img-container">
+                        <img src="Images/adult10.jpg" class="w-100 shadow-1-strong rounded mb-4 filter adults img-zoom" alt="Adults Image 10">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <div class="img-container">
+                        <img src="Images/kid11.jpg" class="w-100 shadow-1-strong rounded mb-4 filter kids img-zoom" alt="Kids Image 11">
+                    </div>
+                    <div class="img-container">
+                        <img src="Images/adult11.jpg" class="w-100 shadow-1-strong rounded mb-4 filter adults img-zoom" alt="Adults Image 11">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <div class="img-container">
+                        <img src="Images/kid12.jpg" class="w-100 shadow-1-strong rounded mb-4 filter kids img-zoom" alt="Kids Image 12">
+                    </div>
+                    <div class="img-container">
+                        <img src="Images/adult12.jpg" class="w-100 shadow-1-strong rounded mb-4 filter adults img-zoom" alt="Adults Image 12">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <div class="img-container">
+                        <img src="Images/kid13.jpg" class="w-100 shadow-1-strong rounded mb-4 filter kids img-zoom" alt="Kids Image 13">
+                    </div>
+                    <div class="img-container">
+                        <img src="Images/adult13.jpg" class="w-100 shadow-1-strong rounded mb-4 filter adults img-zoom" alt="Adults Image 13">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <div class="img-container">
+                        <img src="Images/kid14.jpg" class="w-100 shadow-1-strong rounded mb-4 filter kids img-zoom" alt="Kids Image 14">
+                    </div>
+                    <div class="img-container">
+                        <img src="Images/adult14.jpg" class="w-100 shadow-1-strong rounded mb-4 filter adults img-zoom" alt="Adults Image 14">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <div class="img-container">
+                        <img src="Images/kid15.jpg" class="w-100 shadow-1-strong rounded mb-4 filter kids img-zoom" alt="Kids Image 15">
+                    </div>
+                    <div class="img-container">
+                        <img src="Images/adult15.jpg" class="w-100 shadow-1-strong rounded mb-4 filter adults img-zoom" alt="Adults Image 15">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- GAllery End -->
+
+
+        <!-- Start Footer -->
+        <div class="container-fluid" style="background-color: #37060D;">
+            <div class="row justify-content-evenly text-center text-sm-start mx-auto">
+              <div class="col-sm-4 mt-5">
+                <div class="col-sm-4 mt-5">
+                    <a class="navbar-brand me-auto" href="index.html">
+                        <img src="Images/Logo2.png" alt="Logo" width="150" height="150">
+                    </a>
+                </div>
+              </div>
+
+              <div class="col-sm-4 mt-5 footer-col">
+                <h4>Quick Links</h4>
+                <ul class="list-unstyled">
+                    <li><a href="index.html" class="text-decoration-none text-white">Home</a></li>
+                    <li><a href="aboutUs.html" class="text-decoration-none text-white">About Us</a></li>
+                    <li><a href="programs.html" class="text-decoration-none text-white">Programs</a></li>
+                    <li><a href="instructors.html" class="text-decoration-none text-white">Instructors</a></li>
+                    <li><a href="memberships.html" class="text-decoration-none text-white">Memberships</a></li>
+                    <li><a href="gallery.html" class="text-decoration-none text-white">Gallery</a></li>
+                    <li><a href="contact.html" class="text-decoration-none text-white">Contact Us</a></li>
+                </ul>
+              </div>
+
+                <div class="col-sm-4 mt-5 footer-col text-white">
+                    <h4>Engage with us: </h4>
+                    <p>
+                        <img src="Images/location.png" alt="address-icon" class="bullet-icon"> Address: 123 Zen Way, Lotus Park, Tranquil Town,
+                        Zenith Province, ZN1234<br>
+                        <img src="Images/phone.png" alt="phone-icon" class="bullet-icon"> Phone: +1 (555) 123-4567<br>
+                        <img src="Images/circle.png" alt="email-icon" class="bullet-icon"> Email: info@dohumartialarts.com<br>
+                    </p>
+                </div>
+            </div>
+            <hr class="text-white">
+
+            <div class="row">
+              <div class="col-md-12 text-center pt-1 text-white">
+                <p>&copy; 2023 Copyright <a href="#" class="text-white">DoBu Martial Arts Gym</a></p>
+              </div>
+            </div>
+        </div>
+        <!-- End Footer -->
+        <script src="script.js"></script>
+    </body>
+</html>
